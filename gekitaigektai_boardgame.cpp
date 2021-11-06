@@ -137,7 +137,7 @@ int main() {
         //check win condition
         if(pieces_in_line(board, player) == true)
             break;
-        if(pieces_on_board(board, player) >= N)
+        if(pieces_on_board(board, player) >= P)
             break;
         //swap player if the game is still on
        player = swap(player);
